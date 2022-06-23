@@ -34,10 +34,19 @@ dependencies {
     implementation("androidx.core:core-ktx:${Dependencies.coreKtxVersion}")
     implementation("androidx.appcompat:appcompat:${Dependencies.appcompatVersion}")
     implementation("com.google.android.material:material:${Dependencies.materialVersion}")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     testImplementation("junit:junit:${Dependencies.junitVersion}")
     androidTestImplementation("androidx.test.ext:junit:${Dependencies.extJunitVersion}")
     androidTestImplementation("androidx.test.espresso:espresso-core:${Dependencies.espressoVersion}")
+
+    implementation("com.jakewharton.timber:timber:${Dependencies.timberVersion}")
+
+    //SDP
+    implementation("com.intuit.sdp:sdp-android:${Dependencies.sdpVersion}")
+    implementation("com.intuit.ssp:ssp-android:${Dependencies.sspVersion}")
+
+    implementation("com.google.code.gson:gson:${Dependencies.gsonVersion}")
 }
 
 afterEvaluate {

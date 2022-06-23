@@ -43,4 +43,6 @@ dependencies {
     testImplementation("junit:junit:${Dependencies.junitVersion}")
     androidTestImplementation("androidx.test.ext:junit:${Dependencies.extJunitVersion}")
     androidTestImplementation("androidx.test.espresso:espresso-core:${Dependencies.espressoVersion}")
+
+    implementation(project(mapOf("path" to ":permission-management")))
 }
