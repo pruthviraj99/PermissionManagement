@@ -13,5 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "PermissionManagement"
-include ':app'
-include ':permission-management'
+include (":app",":permission-management")
