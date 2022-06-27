@@ -1,8 +1,8 @@
 # PermissionManagement
 
 # Step 1. Add the JitPack repository to your build file
-allprojects {\n
-		repositories {\n
+allprojects {<br/>
+		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
