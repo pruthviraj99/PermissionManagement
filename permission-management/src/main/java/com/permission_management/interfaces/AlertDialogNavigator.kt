@@ -1,4 +1,4 @@
-package com.permission_management
+package com.permission_management.interfaces
 
 import android.app.AlertDialog
 

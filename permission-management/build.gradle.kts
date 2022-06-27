@@ -47,6 +47,10 @@ dependencies {
     implementation("com.intuit.ssp:ssp-android:${Dependencies.sspVersion}")
 
     implementation("com.google.code.gson:gson:${Dependencies.gsonVersion}")
+
+    //Reactive
+    implementation("io.reactivex.rxjava2:rxandroid:${Dependencies.rxAndroidVersion}")
+    implementation("io.reactivex.rxjava2:rxkotlin:${Dependencies.rxkotlinVersion}")
 }
 
 afterEvaluate {

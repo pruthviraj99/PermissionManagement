@@ -23,5 +23,7 @@ object Dependencies {
     const val timberVersion = "4.7.1"
     const val sdpVersion = "1.0.6"
     const val sspVersion = "1.0.6"
-    const val  gsonVersion = "2.8.8"
+    const val gsonVersion = "2.8.8"
+    const val rxkotlinVersion = "2.4.0"
+    const val rxAndroidVersion = "2.1.1"
 }

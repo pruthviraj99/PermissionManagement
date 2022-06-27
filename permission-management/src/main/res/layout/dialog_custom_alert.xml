@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/nato_sans_bold"
             android:gravity="center"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -29,6 +30,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_15sdp"
             android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/nato_sans_regular"
             android:gravity="center"
             android:text="@{removeDeviceDialogViewModel.onMessage}"
             android:textColor="@color/black"
@@ -45,14 +47,15 @@
             android:id="@+id/lnButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tvNegative"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/nato_sans_bold"
                 android:gravity="center"
                 android:letterSpacing="0.1"
                 android:paddingTop="@dimen/_9sdp"
@@ -73,6 +76,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/nato_sans_bold"
                 android:gravity="center"
                 android:letterSpacing="0.1"
                 android:paddingTop="@dimen/_9sdp"
@@ -88,6 +92,7 @@
             android:id="@+id/tvOk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/nato_sans_bold"
             android:gravity="center"
             android:letterSpacing="0.1"
             android:paddingTop="@dimen/_9sdp"
@@ -95,9 +100,9 @@
             android:text="@string/str_cancel"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:visibility="gone"
             android:textColor="@color/black"
-            android:textSize="@dimen/_13sdp" />
+            android:textSize="@dimen/_13sdp"
+            android:visibility="gone" />
 
     </LinearLayout>
 

@@ -45,4 +45,8 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:${Dependencies.espressoVersion}")
 
     implementation(project(mapOf("path" to ":permission-management")))
+
+    //Reactive
+    implementation("io.reactivex.rxjava2:rxandroid:${Dependencies.rxAndroidVersion}")
+    implementation("io.reactivex.rxjava2:rxkotlin:${Dependencies.rxkotlinVersion}")
 }
