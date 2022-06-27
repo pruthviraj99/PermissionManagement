@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PermissionManagement</string>
+    <string name="str_check_storage_permission">Check Storage Permission</string>
 </resources>

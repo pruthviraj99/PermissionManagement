@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        <style name="TransparentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    &lt;!&ndash;        <item name="android:windowIsTranslucent">true</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowBackground">@android:color/background_dark</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowContentOverlay">@null</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowNoTitle">true</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowIsFloating">true</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:backgroundDimEnabled">false</item>&ndash;&gt;
+        </style>
+    -->
+
+
+</resources>
