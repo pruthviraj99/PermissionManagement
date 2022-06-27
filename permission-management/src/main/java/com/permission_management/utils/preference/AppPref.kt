@@ -1,4 +1,4 @@
-package com.permission_management
+package com.permission_management.utils.preference
 
 import android.content.SharedPreferences
 

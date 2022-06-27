@@ -1,14 +1,13 @@
-package com.permission_management
+package com.permission_management.utils.dialogs
 
 import android.app.Activity
 import android.app.AlertDialog
-import android.app.Dialog
 import android.content.Context
-import android.content.DialogInterface
-import android.graphics.Color
 import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.widget.AppCompatTextView
+import com.permission_management.interfaces.AlertDialogNavigator
+import com.permission_management.R
 import timber.log.Timber
 
 object AppDialogs {

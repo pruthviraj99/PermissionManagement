@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="TransparentTheme" parent="Theme.AppCompat.Light.NoActionBar">
-<!--        <item name="android:windowIsTranslucent">true</item>-->
-<!--        <item name="android:windowBackground">@android:color/background_dark</item>-->
-<!--        <item name="android:windowContentOverlay">@null</item>-->
-<!--        <item name="android:windowNoTitle">true</item>-->
-<!--        <item name="android:windowIsFloating">true</item>-->
-<!--        <item name="android:backgroundDimEnabled">false</item>-->
-    </style>
+    <!--
+        <style name="TransparentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    &lt;!&ndash;        <item name="android:windowIsTranslucent">true</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowBackground">@android:color/background_dark</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowContentOverlay">@null</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowNoTitle">true</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:windowIsFloating">true</item>&ndash;&gt;
+    &lt;!&ndash;        <item name="android:backgroundDimEnabled">false</item>&ndash;&gt;
+        </style>
+    -->
 
-    <style name="DialogAnimation" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
-        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
-    </style>
+
 </resources>

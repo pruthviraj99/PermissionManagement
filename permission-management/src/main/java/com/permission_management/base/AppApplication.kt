@@ -1,8 +1,9 @@
-package com.permission_management
+package com.permission_management.base
 
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
+import com.permission_management.BuildConfig
 import timber.log.Timber
 
 class AppApplication : Application() {
